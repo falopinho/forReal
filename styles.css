@@ -41,3 +41,50 @@ button {
 .content, h1 {
     width: 400px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    * {
+        margin: 0;
+    }
+    
+    body {
+        background-color: rgb(59, 61, 64);
+    }
+    
+    .div-class {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    }
+    
+    .content {
+        background-color: aqua;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    button {
+        display: block;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 50px;
+        width: 100px;
+        border-radius: 20%;
+        background-color: rgb(59, 61, 64);
+        color: aliceblue;
+        border: none;
+        list-style: none;
+    }
+    
+    .content, h1 {
+        width: 400px;
+    }
+}
